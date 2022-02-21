@@ -1,6 +1,8 @@
 # Trybe
 
+
 Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Gabriel Gomes](https://www.linkedin.com/in/gabriel-gomes-744370231/)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket: :rocket: :rocket:
+
 
 _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho."_
 
