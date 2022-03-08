@@ -39,3 +39,33 @@ if(a3 > b3 && a3 > c3){
 
 
 //exercicio 4
+
+const posorfal = -2;
+
+if(posorfal > 0){
+    console.log("exercício 4: positive")
+}else if(posorfal < 0){
+    console.log("exercício 4: negative")
+}else{
+    console.log("exercício 4: zero")
+}
+
+
+//exercicio 5
+
+const ang1 = 60;
+const ang2 = 80;
+const ang3 = 40;
+
+let angposi = ang1 > 0 && ang2 > 0 && ang3 > 0;
+const angulosinternos = ang1 + ang2 +ang3; 
+
+if(angposi){
+    if(angulosinternos === 180){
+        console.log("true");
+    }else{
+        console.log("false")
+    }
+}else{
+    console.log("angulo inválido")
+}
