@@ -22,3 +22,4 @@ function maiorNum(primeiroNum, segundoNum) {
       return segundoNum + ' é maior que ' + primeiroNum;
     }
   }
+  //
