@@ -23,4 +23,4 @@ for (let key in info && info2) { //3
   }else{}
   console.log(info[key] + " e " + info2[key]);
 }
-
+//a
