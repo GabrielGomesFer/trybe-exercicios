@@ -18,6 +18,47 @@ function createDaysOfTheWeek() {
 
   function createDaysOfTheMonth(){
       let getDaysList = document.querySelector('#days');
-
-      
+      for(let index = 0; index<dezDaysList.length; index+=1){
+          let day = dezDaysList[index];
+          let dayItem = document.createElement('li');
+          if(day === 24 || day === 31){
+              dayItem.className = 'day holiday';
+              dayItem.innerHTML = day;
+              getDaysList.appendChild(dayItem);
+          }else if(day === 4 || day === 11 || day === 18){
+            dayItem.className = 'day friday';
+            dayItem.innerHTML = day;
+            getDaysList.appendChild(dayItem);
+        }else if(day === 25){
+            dayItem.className = 'day holiday friday';
+            dayItem.innerHTML = day;
+            getDaysList.appendChild(dayItem);
+        }else{
+            dayItem.className = 'day';
+            dayItem.innerHTML = day;
+            getDaysList.appendChild(dayItem);
+        }
+      }
   }
+  createDaysOfTheMonth();
+  
+
+  function createHolidayButton(buttonName){
+  let btnCont = document.querySelector('.buttons-container');
+  let newBtn = document.createElement('button');
+  let newBtnID = 'btn-holiday';
+
+  newBtn.innerHTML = buttonName;
+  newBtn.id = newBtnID;
+  btnCont.appendChild(newBtn);
+}
+createHolidayButton('Feriados');
+
+function pressHolidays(){
+    let getHolidayBTN = document.getElementById('btn-holiday');
+    let getHoliday = document.querySelectorAll('.holiday');
+    let backgroundColor = 'rgb(238,238,238)';
+    let resetColor = 'white';
+
+    
+}
