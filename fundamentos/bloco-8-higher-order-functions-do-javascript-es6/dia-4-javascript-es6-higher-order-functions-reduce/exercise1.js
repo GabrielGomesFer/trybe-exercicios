@@ -9,3 +9,4 @@ const arrays = [
    
   }
   console.log(flatten());
+  //a
