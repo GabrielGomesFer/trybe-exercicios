@@ -8,14 +8,14 @@ const Task = (value) => {
   );
 }
 
-const tarefas =  ['Acordar', 'Tomar café', 'Escovar os dentes', 'Ir trabalhar'];
+const tarefas =  ['Acordar', 'Tomar café', 'Escovar os dentes', 'Ir trabalhar', 'Descansar'];
 
 class App extends React.Component {
   render(){
   return (
     <div>
         <h1>EXERCICIO REACT</h1>      
-        <ul> {tarefas.map(tarefa => Task(tarefa))} </ul>
+        <ul>{tarefas.map(tarefa => Task(tarefa))}</ul>
     </div>
   );
 }
