@@ -24,3 +24,10 @@ h1 {
 p {
   color: white;
 }
+
+.card {
+  background-color: #3b4a68;
+  margin: 30px 450px ;
+  padding-top: 20px;
+  border-radius: 10px;
+}
